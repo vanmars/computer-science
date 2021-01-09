@@ -5,7 +5,7 @@
 By Vanessa Stewart
 
 ### Description
-This is a place for me to learn computer science principles through practice and play. I am following along with the CS[Epicodus curriculum](https://www.learnhowtoprogram.com/computer-science).
+This is a place for me to learn computer science principles through practice and play. I am following along with the CS [Epicodus curriculum](https://www.learnhowtoprogram.com/computer-science).
 
 ### License
 Copyright 2021 Vanessa Stewart
