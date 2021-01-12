@@ -39,5 +39,11 @@ test('check to see if edge exists in graph', () => {
     graph.addNode("Ada");
     expect(graph.hasEdge("Jasmine", "Ada")).toEqual(false);
   });
-
+  
+test('add an edge between two nodes with new hadEdge method check', () => {
+    graph.addNode("Jasmine");
+    graph.addNode("Ada");
+    graph.createEdge("Jasmine", "Ada");
+    expect(graph.hasEdge("Ada", "Jasmine")).toEqual(true);
+  });
 })
