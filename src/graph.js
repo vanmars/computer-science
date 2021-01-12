@@ -8,6 +8,9 @@ export default class Graph {
   }
 
   hasNode(name) {
+    if (this.adjacencyList.get(name)) {   //returns key if exists, or undefined if key does not exist
+      return true;
+    }
     return false;
   }
   

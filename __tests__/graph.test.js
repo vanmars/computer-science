@@ -20,4 +20,9 @@ test('should add a new node', () => {
 test('should return null if the node does not exist in the adjacency list', () => {
     expect(graph.hasNode("Ada")).toEqual(false);
   })
+
+  test('check to see if node exists in graph', () => {
+    graph.addNode("Jasmine");
+    expect(graph.hasNode("Jasmine")).toEqual(true);
+  })
 })
