@@ -99,7 +99,7 @@ describe('binarySearchTree', () => {
   });
 
   test('it should return if the value 0 is not in the tree', () => {
-    expect(pbst.checkForValue(0)).toEqual(false);
+    expect(pbst.search(0)).toEqual(false);
   });
 
   test('it should return true if the tree includes 7', () => {

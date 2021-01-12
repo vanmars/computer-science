@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1610169435460" clover="3.2.0">
-  <project timestamp="1610169435461" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="20" coveredconditionals="19" methods="4" coveredmethods="4" elements="55" coveredelements="54" complexity="0" loc="31" ncloc="31" packages="1" files="2" classes="2"/>
+<coverage generated="1610473243733" clover="3.2.0">
+  <project timestamp="1610473243733" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="20" coveredconditionals="19" methods="5" coveredmethods="5" elements="57" coveredelements="56" complexity="0" loc="32" ncloc="32" packages="1" files="3" classes="3"/>
     <file name="bst-node.js" path="/Users/vanessa/Desktop/cs/src/bst-node.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="115" type="stmt"/>
@@ -38,6 +38,10 @@
       <line num="44" count="6" type="stmt"/>
       <line num="46" count="8" type="cond" truecount="2" falsecount="0"/>
       <line num="47" count="1" type="stmt"/>
+    </file>
+    <file name="graph.js" path="/Users/vanessa/Desktop/cs/src/graph.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
