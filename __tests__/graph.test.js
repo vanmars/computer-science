@@ -21,8 +21,17 @@ test('should return null if the node does not exist in the adjacency list', () =
     expect(graph.hasNode("Ada")).toEqual(false);
   })
 
-  test('check to see if node exists in graph', () => {
+test('check to see if node exists in graph', () => {
     graph.addNode("Jasmine");
     expect(graph.hasNode("Jasmine")).toEqual(true);
   })
+
+test('add an edge between two nodes', () => {
+    graph.addNode("Jasmine");
+    graph.addNode("Ada");
+    graph.createEdge("Jasmine", "Ada");
+    expect(graph.adjacencyList.get("Jasmine").has("Ada")).toEqual(true);
+    expect(graph.adjacencyList.get("Ada").has("Jasmine")).toEqual(true);
+  });
+
 })
