@@ -30,5 +30,14 @@ export default class Graph {
     this.adjacencyList.get(node1).delete(node2);
     this.adjacencyList.get(node2).delete(node1);
   }
+
+  removeNode(name) {
+    if (this.adjacencyList.has(name)) {
+      this.adjacencyList.get(name).forEach((edge) => {
+        this.adjacencyList.get(edge).delete(name);
+      });
+      this.adjacencyList.delete(name);
+    }
+  }
   
 }
