@@ -46,4 +46,13 @@ test('add an edge between two nodes with new hadEdge method check', () => {
     graph.createEdge("Jasmine", "Ada");
     expect(graph.hasEdge("Ada", "Jasmine")).toEqual(true);
   });
+
+  test('remove an edge between two nodes', () => {
+    graph.addNode("Jasmine");
+    graph.addNode("Ada");
+    graph.createEdge("Jasmine", "Ada");
+    graph.removeEdge("Jasmine", "Ada");
+    expect(graph.hasEdge("Ada", "Jasmine")).toEqual(false);
+  });
+  
 })
